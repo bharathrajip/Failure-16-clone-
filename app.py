@@ -8,7 +8,7 @@ with open('disease_prediction_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Load encoders
-with open('label_encoders.pkl', 'rb') as file:
+with open('label_encoders_fixed.pkl', 'rb') as file:
     label_encoders = pickle.load(file)
 
 st.title("Disease Prediction from Symptoms")
